@@ -8,12 +8,19 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    int x =65;
-    char ch;
-    ch=x;
-    std::cout<<"\n";
-    std::cout<<ch;
-    std::cout<<"\n";
+    int N;
+    std::cin>>N;
+    for(int i =1; i<=N;i++)
+    {
+        int x =65;
+        char ch;
+        for(int j =1;j<=N;j++){
+            ch=x;
+            std::cout<<ch;
+            x++;
+        }
+        std::cout<<"\n";
+    }
     
     return 0;
 }
