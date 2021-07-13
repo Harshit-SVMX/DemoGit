@@ -15,9 +15,11 @@ int main(int argc, const char * argv[]) {
         int x =65;
         char ch;
         for(int j =1;j<=N;j++){
-            ch=x;
-            std::cout<<ch;
-            x++;
+           // ch=x;
+           // std::cout<<ch;
+           // x++;   ch = 'A'+1
+            ch = 'A'+j-1;
+            std::cout<<ch;            
         }
         std::cout<<"\n";
     }
