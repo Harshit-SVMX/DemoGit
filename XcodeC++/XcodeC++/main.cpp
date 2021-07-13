@@ -13,7 +13,6 @@ int main(int argc, const char * argv[]) {
     ch=x;
     std::cout<<"\n";
     std::cout<<ch;
-    
     std::cout<<"\n";
     
     return 0;
