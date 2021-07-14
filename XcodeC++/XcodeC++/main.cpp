@@ -18,8 +18,9 @@ int main(int argc, const char * argv[]) {
            // ch=x;
            // std::cout<<ch;
            // x++;   ch = 'A'+1
-            ch = 'A'+j-1;
-            std::cout<<ch;            
+            //ch = 'A'+j-1;
+            ch = 'A'+i+j-2;
+            std::cout<<ch;
         }
         std::cout<<"\n";
     }
