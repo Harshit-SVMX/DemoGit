@@ -1,6 +1,6 @@
-    def pipeline
-    node('master') {
-        pipeline = load 'pipeline.groovy'
-        pipeline.functionA()
-    }
-    pipeline.functionB()
+node {
+    def rootDir = pwd()
+    def exampleModule = load "${rootDir}@script/Example.Groovy "
+    exampleModule.exampleMethod()
+    exampleModule.otherExampleMethod()
+}
